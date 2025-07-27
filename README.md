@@ -75,5 +75,6 @@ From choosing a strategic survey region based on academic and community insights
 Thank you, everyone!
 
 References:
-*[OpenAItoZ](https://www.kaggle.com/competitions/openai-to-z-challenge)
-*[The ArchaeoBlog](https://www.jqjacobs.net/blog/)
+* [OpenAItoZ](https://www.kaggle.com/competitions/openai-to-z-challenge)
+  
+* [The ArchaeoBlog](https://www.jqjacobs.net/blog/)
