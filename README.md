@@ -30,15 +30,15 @@ My first milestone was carefully selecting a region ripe with archaeological pot
 
 My thinking process to narrow down to one coordinate was:
 
-*High-C areas: Compute soil organic carbon percentiles to mask regions with >5 g C/kg, indicating possible terra preta.
+* **High-C areas:** Compute soil organic carbon percentiles to mask regions with >5 g C/kg, indicating possible terra preta.
 
-*Vegetation anomalies: Extract pixels where NDVI exceeds its 99th percentile within 2 km of major rivers, flagging potential buried ditches or clearings.
+* **Vegetation anomalies:** Extract pixels where NDVI exceeds its 99th percentile within 2 km of major rivers, flagging potential buried ditches or clearings.
 
-*River proximity: Select all pixels within 2 km of river geometries to capture settlement-water relationships.
+* **River proximity:** Select all pixels within 2 km of river geometries to capture settlement-water relationships.
 
-*Known sites: Import ArcheoBlog centroids and filter to our survey box as ground-truth candidates.
+* **Known sites:** Import ArcheoBlog centroids and filter to our survey box as ground-truth candidates.
 
-*Voting scheme: Merge all candidate points, annotate each with boolean flags for proximity to soil, NDVI, river, and Archeo features, then sum these flags into a ‘votes’ score.
+* **Voting scheme:** Merge all candidate points, annotate each with boolean flags for proximity to soil, NDVI, river, and Archeo features, then sum these flags into a ‘votes’ score.
 
 Final pick: Sort by votes (≥2) and take the top feature—this yields the single seed coordinate that best satisfies multiple archaeological indicators.
 
