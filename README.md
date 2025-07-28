@@ -11,7 +11,7 @@ Clone the repository
 https://github.com/Chatterjee-Arpan/Amazonia_OpenAItoZ.git
 ```
 
-### STEP 01- Create IAM credentials in Google Cloud to use Earth Engine. You will also require OpenAI API key credentials.
+### STEP 01- Create a service account and IAM credentials in Google Cloud to use Earth Engine. You will also require OpenAI API key credentials.
 
 ### STEP 02- Run the openai-to-z.ipynb file.
 **That's it!**
