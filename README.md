@@ -42,7 +42,7 @@ My thinking process to narrow down to one coordinate was:
 
 Final pick: Sort by votes (≥2) and take the top feature—this yields the single seed coordinate that best satisfies multiple archaeological indicators.
 
-Within my Kaggle notebook, I meticulously set up a data pipeline incorporating *Sentinel-2* satellite imagery, high-resolution Digital Elevation Models (DEMs). Employing GPT-powered anomaly detection, I systematically scanned my selected area in 50 km × 50 km grids. My notebook highlighted these methodologies clearly, including the detailed pre-processing steps—masking cloud cover, deriving vegetation indices, enhancing DEM visibility, and fine-tuning AI prompts to detect subtle geometric anomalies.
+Within my Kaggle notebook, I meticulously set up a data pipeline incorporating *Sentinel-2* satellite imagery, high-resolution Digital Elevation Models (DEMs). Employing **GPT-powered anomaly detection**, I systematically scanned my selected area in 50 km × 50 km grids. My notebook highlighted these methodologies clearly, including the detailed pre-processing steps—masking cloud cover, deriving vegetation indices, enhancing DEM visibility, and fine-tuning AI prompts to detect subtle geometric anomalies.
 
 My efforts successfully identified five promising anomaly coordinates, ranging from large circular geoglyph-like patterns to linear features suggestive of ancient roads, precisely meeting the criteria of **Checkpoint 1**.
 
